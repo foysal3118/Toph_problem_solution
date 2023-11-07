@@ -28,7 +28,7 @@ def output(balls):
             print(f"{ballCount} BALL")
 
 
-num = input()
+num = int(input())
 for i in range(0, num):
     balls = input()
     output(balls)
