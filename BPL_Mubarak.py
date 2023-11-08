@@ -3,7 +3,7 @@ def output(balls):
     overCount = 0
     ign = "WND"
     cal = "0123456O"
-    for j in range(0, len(balls)):
+    for j in range(len(balls)):
         if str(balls[j]) in cal:
             ballCount = ballCount + 1
             if ballCount >= 6:
@@ -29,6 +29,6 @@ def output(balls):
 
 
 num = int(input())
-for i in range(0, num):
+for i in range(num):
     balls = input()
     output(balls)
