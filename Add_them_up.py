@@ -1,2 +1,2 @@
-n, m = map(int, input().split())
-print(n + m)
+a, b = [int(i) for i in input().split()]
+print(a + b)
